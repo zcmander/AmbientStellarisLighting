@@ -430,9 +430,9 @@ int main(void)
     //
     // Enable the system tick.
     //
-    SysTickPeriodSet(SysCtlClockGet() / SYSTICKS_PER_SECOND);
-    SysTickIntEnable();
-    SysTickEnable();
+    //SysTickPeriodSet(SysCtlClockGet() / SYSTICKS_PER_SECOND);
+    //SysTickIntEnable();
+    //SysTickEnable();
 
     //
     // Initialize the transmit and receive buffers.
